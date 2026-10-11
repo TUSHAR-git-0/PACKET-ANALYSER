@@ -1,0 +1,23 @@
+# C++ build artifacts
+build/
+cmake-build-*/
+*.o
+*.obj
+*.exe
+*.dll
+*.lib
+
+# Compiled project binary
+/dpi_engine
+
+# Generated packet captures
+*.pcap
+*.pcapng
+
+# Local IDE settings
+.vscode/
+
+# Secrets
+.env
+.env.*
+!.env.example
